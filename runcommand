@@ -1,0 +1,10 @@
+def main():
+    while True:
+        # Lue komento alustalta
+        command = input().strip()
+        
+        # Käsittele komento ja tulosta vastaukset
+        # Tekoälysi logiikka tulee tänne
+        
+if __name__ == "__main__":
+    main()

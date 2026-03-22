@@ -1,7 +1,0 @@
-/node_modules/
-/.idea/
-/app/out/
-/app/node_modules/
-/app/.webpack/
-**.pex
-**/__pycache__/**
