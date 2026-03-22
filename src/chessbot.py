@@ -23,7 +23,7 @@ def evaluate(position):
     return material_score
 
 def minimax(position, max_depth, maximizing_player, alpha, beta):
-    if not position or max_depth == 0:
+    if not position.children or max_depth == 0:
         return evaluate(position)
 
     if maximizing_player:
